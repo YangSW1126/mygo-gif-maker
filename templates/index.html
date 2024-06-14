@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mygo gif maker</title>
+
+    <link rel = "stylesheet" href = "style.css?v=<?=time()?>">
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div><a href="https://nyamuchi-frontend.vercel.app/" target=”_blank”>https://nyamuchi-frontend.vercel.app/</a></div>
+        <ul class="list" id="list"></ul>
+        <button id="add">增加片段</button>
+    </div>
+    
+
+    <button id = "finish_btn">確認</button>
+    <!-- <img src="tomori.gif"/> -->
+    <div id = "div-gif">
+        <img src = "" id = "gif" style="width: 1280px;"/>
+        <!-- <img src="../test.gif" style="width: 300px;"/> -->
+    </div>
+    <button id = "remove_btn">清除</button>
+</body>
+</html>
